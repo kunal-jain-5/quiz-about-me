@@ -4,7 +4,7 @@ const chalk=require('chalk')
 let score=0;
 let playerName=readlinesync.question(chalk.bold.yellow("May I know your name ? "));
 
-console.log(chalk.bold.cyan("Welcome "+ playerName + " to DO YOU KNOW KUNAL ?"))
+console.log(chalk.bold.blue("Welcome "+ playerName + " to DO YOU KNOW KUNAL ?"))
 
 function play(question,ans,options)
 {
